@@ -10,6 +10,19 @@ The story has a single ending on purpose. The choices don't change what happens.
 
 The game is available in **English** and **Russian**. The language is chosen on the first launch and can be changed later in *Settings → Language*.
 
+## Screenshots
+
+![Main menu](docs/screenshots/01-main-menu.jpg)
+
+| | |
+|---|---|
+| ![Arrival at the house](docs/screenshots/02-arrival.jpg) | ![A choice in the nursery](docs/screenshots/03-choice.jpg) |
+| *Day one: arriving at the house* | *Every choice is between two equal options* |
+| ![Frau von Waldeck at the table](docs/screenshots/04-dining-room.jpg) | ![Darning mini-game](docs/screenshots/05-darning.jpg) |
+| *Frau von Waldeck at the table* | *The darning mini-game (drag and drop)* |
+| ![Irene's diary](docs/screenshots/06-diary.jpg) | ![The suitcase with achievements](docs/screenshots/07-suitcase.jpg) |
+| *Irene's diary remembers your choices* | *The suitcase: achievements kept between playthroughs* |
+
 ## Features
 
 - **Warm / cold balance.** Every choice is between two equally reasonable options: one brings Irene closer to the house, the other keeps her at a distance. Each choice calls `house.pull("warm")` or `house.pull("cold")`, which changes the hidden `warmth` and `dread` counters. The difference between them (`house.lean`) tints the backgrounds and CGs in real time (`house_tint`, `cg_tint`) and adds a soft pink glow or a dark "heartbeat" over the scene (`screen mood`).
